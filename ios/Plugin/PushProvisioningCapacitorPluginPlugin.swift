@@ -106,6 +106,12 @@ public class PushProvisioningCapacitorPluginPlugin: CAPPlugin {
     
     private func getCard(lastFour: String) -> PKPass? {
         let passes = PKPassLibrary().passes()
+
+        for pass in passes {
+            if pass.localizedDescription == "Cocos" && pass.paymentPass?.primaryAccountNumberSuffix == lastFour {
+                return pass;
+            }
+        }
         
         return nil
     }
