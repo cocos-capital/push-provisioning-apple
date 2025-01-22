@@ -1,5 +1,5 @@
 {
-  "name": "push-provisioning-apple",
+  "name": "@cocos-capital/push-provisioning-apple",
   "version": "6.0.0",
   "description": "Push provisioning Capacitor plugin for Apple Pay support",
   "main": "dist/plugin.cjs.js",
@@ -14,6 +14,9 @@
     "PushProvisioningApple.podspec"
   ],
   "author": "Cocos",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
