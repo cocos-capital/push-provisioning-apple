@@ -11,10 +11,6 @@ xcuserdata
 # macOS files
 .DS_Store
 
-
-
-# Based on Android gitignore template: https://github.com/github/gitignore/blob/HEAD/Android.gitignore
-
 # Built application files
 *.apk
 *.ap_
@@ -43,12 +39,6 @@ proguard
 # Log Files
 *.log
 
-# Android Studio Navigation editor temp files
-.navigation
-
-# Android Studio captures folder
-captures
-
 # IntelliJ
 *.iml
 .idea
@@ -56,6 +46,3 @@ captures
 # Keystore files
 # Uncomment the following line if you do not want to check your keystore files in.
 #*.jks
-
-# External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
